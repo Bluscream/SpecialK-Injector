@@ -71,7 +71,7 @@
   <ItemGroup>
     <Compile Include="Events\WindowWatcher.cs" />
     <Compile Include="Events\WindowHookNet.cs" />
-    <Compile Include="GetModules.cs" />
+    <Compile Include="Utils\GetModules.cs" />
     <Compile Include="Items\Enums.cs" />
     <Compile Include="Events\ProcessWatcher.cs" />
     <Compile Include="Program.cs" />
@@ -79,6 +79,7 @@
     <Compile Include="Events\Temp.cs" />
     <Compile Include="Utils\Extensions.cs" />
     <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\ProcessHandler.cs" />
     <Compile Include="Utils\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
