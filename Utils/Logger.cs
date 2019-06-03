@@ -13,7 +13,7 @@ namespace SKInjector
         enum LogLevel {
             Trace, Debug, Info, Warn, Error, Fatal
         }
-        private static FileInfo getLogFile(string fileName = "Injector.log") {
+        private static FileInfo getLogFile(string fileName = "SKInjector.log") {
             return new FileInfo(Path.Combine(Utils.getOwnPath().DirectoryName, fileName));
         }
         public static void Init() {

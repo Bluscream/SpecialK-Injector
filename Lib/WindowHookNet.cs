@@ -4,7 +4,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace WindowHookNet
+namespace SKInjector.Lib
 {
     /// <summary>
     /// stores data about the raised event
